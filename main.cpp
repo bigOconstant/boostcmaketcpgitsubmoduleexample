@@ -5,7 +5,7 @@
 #include <boost/date_time/posix_time/posix_time.hpp>
 
 int main(int argc, char **argv) {
-      std::cout << "Begin Wait!" << std::endl;
+  std::cout << "Begin Wait!" << std::endl;
 
   boost::asio::io_context io;
 
