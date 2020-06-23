@@ -15,7 +15,7 @@ set( project_sources
 add_executable(${PROJECT_NAME}
   ${project_sources}
 )
-add_subdirectory(libs/librdkafka)
+add_subdirectory(libs/librdkafka/)
 
 target_link_libraries( tcpserver  LINK_PUBLIC rdkafka ${Boost_LIBRARIES} )
 
